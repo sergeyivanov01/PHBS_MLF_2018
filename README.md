@@ -15,6 +15,7 @@ The oil market influences nearly all aspects of our lives. At large, nearly ever
 **Description of data**
 
 The chosen dataset presents Brent oil price per barrel since May 1987 to October 2018. The overall trend is showing that oil prices are rising. I decided to choose Brent oil because it is one of the most recognizable brands, which is why it is reasonable to assume that this sector is the most reflective in terms of oil prices. The dataset is taken from United States Energy Information Administration, which is why this data may be considered accurate.
+![1987-2018 BP](https://github.com/sergeyivanov01/PHBS_MLF_2018/blob/master/1987-2018%20price.png)
  
  
  
