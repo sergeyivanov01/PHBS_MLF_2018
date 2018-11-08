@@ -1,7 +1,6 @@
 # PHBS_MLF_2018
 **Brent Oil Price Prediction**
 
-**Team Member**
 Sergey Ivanov 1701213211
 
 sergeyivanov01
@@ -16,9 +15,12 @@ The oil market influences nearly all aspects of our lives. At large, nearly ever
 
 The chosen dataset presents Brent oil price per barrel since May 1987 to October 2018. The overall trend is showing that oil prices are rising. I decided to choose Brent oil because it is one of the most recognizable brands, which is why it is reasonable to assume that this sector is the most reflective in terms of oil prices. The dataset is taken from United States Energy Information Administration, which is why this data may be considered accurate.
 
+
 ![1987-2018 BP](https://github.com/sergeyivanov01/PHBS_MLF_2018/blob/master/1987-2018%20price.png)
 
+
  As you can see from this graph, there are a lot of fluctuations caused by external factors. In this case it is 2008 financial crisis and fracking boom. This is why it is better to limit the dataset to recent market price:
+ 
  
 ![2018 Brent Oil Price](https://github.com/sergeyivanov01/PHBS_MLF_2018/blob/master/2018%20price.png)
  
@@ -30,8 +32,10 @@ The goal of this project is to estimate the price for Brent using Machine Learni
 **Time Series Forecast**
 Time Series forecast is dependent on time, which is why in order to make a forecast it is important to link it to time. It is assumed that Time series is stationary, meaning that it has constant mean, variance and autocovariance. Due to that, it is possible to make a forecast in the future. In order to check for stationary points, I plotted rolling statistics and conducted Dickey-Fuller test.
 However, practical data is rarely perfectly stationary, but there is a way to make it as stationary as possible. There are 2 reasons for non-stationary time series:
+
 1) trend
 2) seasonality
+
 I decided to use decomposing in order to make this TS data more stationary. Decomposition – modeling both trend and seasonality and removing them from the model.
 
 **ARIMA Model**
