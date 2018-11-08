@@ -35,14 +35,26 @@ However, practical data is rarely perfectly stationary, but there is a way to ma
 I decided to use decomposing in order to make this TS data more stationary. Decomposition – modeling both trend and seasonality and removing them from the model.
 
 **ARIMA Model**
+
 ARIMA stands for Auto-Regressive Integrated Moving Averages. 
 The ARIMA forecasting for a stationary time series is nothing but a linear (like a linear regression) equation. The predictors depend on the parameters (p,d,q) of the ARIMA model:
 
 Number of AR (Auto-Regressive) terms (p): AR terms are just lags of dependent variable. For instance if p is 5, the predictors for x(t) will be x(t-1)….x(t-5).
+
 Number of MA (Moving Average) terms (q): MA terms are lagged forecast errors in prediction equation. For instance if q is 5, the predictors for x(t) will be e(t-1)….e(t-5) where e(i) is the difference between the moving average at ith instant and actual value.
+
 Number of Differences (d): These are the number of nonseasonal differences, i.e. in this case we took the first order difference. So either we can pass that variable and put d=0 or pass the original variable and put d=1. Both will generate same results.
 
+
 An importance concern here is how to determine the value of ‘p’ and ‘q’. We use two plots to determine these numbers. 
+
 ![Autocorrelation and Partial Autocorrelation Function](https://github.com/sergeyivanov01/PHBS_MLF_2018/blob/master/2018%20autocorr.png)
+
+**Conclusion**
+At the current time, I am still trying to debug the code that I wrote. I tried a lot of things and searched a lot online for a possible solution, but I couldnt find anything helpful for my case. I am getting this error:
+
+ValueError: view limit minimum -36849.1 is less than 1 and is an invalid Matplotlib date value. This often happens if you pass a non-datetime value to an axis that has datetime units
+
+Sadly, this error is the last step required to make a forecast and I did not get it to work yet. I will find out why I got this error within a week, and if you have any suggestions, please let me know what you think.
 
 
