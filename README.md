@@ -27,7 +27,7 @@ The chosen dataset presents Brent oil price per barrel since May 1987 to October
  
 **Goal of the project**
 
-The goal of this project is to estimate the price for Brent using Machine Learning. In order to predict the prices in the given dataset, I plan to use time series regression (ARIMA). The price estimation is planned to predict Brent oil price from October 15, 2018 to November 15, 2018. It would be interesting to compare the estimation from the model with the actual data from EIA, which I will recover closer to the date of the course project presentation. The reason why I only make a prediction for one month is because to realistically estimate the price, it is important to account for unpredictable events such as new oil field discoveries, geopolitical situation and etc.
+The goal of this project is to estimate the price for Brent using Machine Learning. In order to predict the prices in the given dataset, I plan to use time series regression (ARIMA). The price estimation is planned to predict Brent oil price from October 15, 2018 to November 15, 2018. The reason why I only make a prediction for one month is because to realistically estimate the price, it is important to account for unpredictable events such as new oil field discoveries, geopolitical situation and etc.
 
 **Time Series Forecast**
 Time Series forecast is dependent on time, which is why in order to make a forecast it is important to link it to time. It is assumed that Time series is stationary, meaning that it has constant mean, variance and autocovariance. Due to that, it is possible to make a forecast in the future. In order to check for stationary points, I plotted rolling statistics and conducted Dickey-Fuller test.
