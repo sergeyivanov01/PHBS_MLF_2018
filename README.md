@@ -33,13 +33,21 @@ The goal of this project is to estimate the price for Brent using Machine Learni
 Time Series forecast is dependent on time, which is why in order to make a forecast it is important to link it to time. It is assumed that Time series is stationary, meaning that it has constant mean, variance and autocovariance. Due to that, it is possible to make a forecast in the future. In order to check for stationary points, I plotted rolling statistics and conducted Dickey-Fuller test.
 
 Results of Dickey-Fuller Test:
+
 Test Statistic                  -1.797204
+
 p-value                          0.381851
+
 #Lags Used                      13.000000
+
 Number of Observations Used    176.000000
+
 Critical Value (1%)             -3.468062
+
 Critical Value (5%)             -2.878106
+
 Critical Value (10%)            -2.575602
+
 dtype: float64
 
 
