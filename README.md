@@ -76,18 +76,20 @@ An importance concern here is how to determine the value of ‘p’ and ‘q’.
 
 **Conclusion**
 ARIMA model has computed the following output:
-predicted=77.654031, expected=75.350000
-predicted=75.850825, expected=72.110000
-predicted=72.271320, expected=74.110000
-predicted=74.294124, expected=71.030000
-predicted=71.046181, expected=70.870000
-predicted=71.658132, expected=70.520000
-predicted=70.520835, expected=71.940000
-predicted=71.853183, expected=71.990000
-predicted=72.225880, expected=73.450000
-predicted=73.492727, expected=73.530000
-predicted=73.497259, expected=73.670000
+predicted=77.654031,expected=75.350000
+predicted=75.850825,expected=72.110000
+predicted=72.271320,expected=74.110000
+predicted=74.294124,expected=71.030000
+predicted=71.046181,expected=70.870000
+predicted=71.658132,expected=70.520000
+predicted=70.520835,expected=71.940000
+predicted=71.853183,expected=71.990000
+predicted=72.225880,expected=73.450000
+predicted=73.492727,expected=73.530000
+predicted=73.497259,expected=73.670000
 predicted=73.608196, expected=74.510000
+
+
 predicted=74.455843, expected=74.840000
 predicted=74.709107, expected=74.990000
 predicted=75.053395, expected=74.160000
