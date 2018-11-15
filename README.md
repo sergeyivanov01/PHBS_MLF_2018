@@ -217,3 +217,6 @@ predicted=81.568624, expected=80.710000
 predicted=80.887699, expected=80.910000
 
 ![ARIMA Prediction](https://github.com/sergeyivanov01/PHBS_MLF_2018/blob/master/ARIMA%20prediction.png)
+
+As we can see, the predicted price closely followed the real price, which is why this model is quite useful for predicting the price. However, it is also important to note that this model cannot be used with 100% reliability because oil prices are highly dependent on geopolitical situation, and even small changes in the situation will influence the price of oil.
+Considering everything mentioned above, this project is a representation of ARIMA model application and it shows relative success and reliability of this model.
