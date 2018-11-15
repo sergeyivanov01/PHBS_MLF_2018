@@ -75,10 +75,75 @@ An importance concern here is how to determine the value of ‘p’ and ‘q’.
 ![Autocorrelation and Partial Autocorrelation Function](https://github.com/sergeyivanov01/PHBS_MLF_2018/blob/master/2018%20autocorr.png)
 
 **Conclusion**
-At the current time, I am still trying to debug the code that I wrote. I tried a lot of things and searched a lot online for a possible solution, but I couldnt find anything helpful for my case. I am getting this error:
+ARIMA model has computed the following output:
+predicted=77.654031, expected=75.350000
+predicted=75.850825, expected=72.110000
+predicted=72.271320, expected=74.110000
+predicted=74.294124, expected=71.030000
+predicted=71.046181, expected=70.870000
+predicted=71.658132, expected=70.520000
+predicted=70.520835, expected=71.940000
+predicted=71.853183, expected=71.990000
+predicted=72.225880, expected=73.450000
+predicted=73.492727, expected=73.530000
+predicted=73.497259, expected=73.670000
+predicted=73.608196, expected=74.510000
+predicted=74.455843, expected=74.840000
+predicted=74.709107, expected=74.990000
+predicted=75.053395, expected=74.160000
+predicted=74.224997, expected=72.280000
+predicted=72.356481, expected=72.950000
+predicted=72.979091, expected=72.480000
+predicted=72.483628, expected=72.510000
+predicted=72.762705, expected=72.310000
+predicted=72.500376, expected=70.710000
+predicted=70.799820, expected=70.550000
+predicted=70.677324, expected=71.000000
+predicted=70.961975, expected=70.620000
+predicted=70.732725, expected=70.770000
+predicted=70.964294, expected=68.380000
+predicted=68.488951, expected=69.210000
+predicted=69.255603, expected=70.140000
+predicted=70.008162, expected=71.110000
+predicted=71.162192, expected=71.650000
+predicted=71.759266, expected=72.960000
+predicted=72.844012, expected=73.730000
+predicted=73.612559, expected=74.410000
+predicted=74.371852, expected=74.410000
+predicted=74.384940, expected=75.910000
+predicted=75.828210, expected=76.070000
+predicted=76.021459, expected=77.050000
+predicted=77.097996, expected=76.940000
+predicted=76.963726, expected=77.810000
+predicted=77.791225, expected=77.510000
+predicted=77.545106, expected=76.680000
+predicted=76.755879, expected=75.670000
+predicted=75.751125, expected=75.550000
+predicted=75.537767, expected=76.770000
+predicted=76.797472, expected=78.220000
+predicted=78.308519, expected=80.020000
+predicted=80.162134, expected=77.660000
+predicted=77.752504, expected=77.870000
+predicted=77.892225, expected=78.220000
+predicted=78.079958, expected=79.250000
+predicted=79.244055, expected=79.430000
+predicted=79.597936, expected=79.030000
+predicted=79.101299, expected=78.900000
+predicted=78.945849, expected=80.890000
+predicted=80.851428, expected=82.210000
+predicted=82.197763, expected=81.870000
+predicted=81.950940, expected=81.540000
+predicted=81.619249, expected=82.720000
+predicted=82.690943, expected=84.940000
+predicted=84.913017, expected=85.630000
+predicted=85.650590, expected=85.450000
+predicted=85.541825, expected=86.070000
+predicted=86.154719, expected=85.120000
+predicted=85.149747, expected=84.220000
+predicted=84.352182, expected=85.160000
+predicted=85.278720, expected=83.820000
+predicted=83.888123, expected=81.350000
+predicted=81.568624, expected=80.710000
+predicted=80.887699, expected=80.910000
 
-ValueError: view limit minimum -36849.1 is less than 1 and is an invalid Matplotlib date value. This often happens if you pass a non-datetime value to an axis that has datetime units
-
-Sadly, this error is the last step required to make a forecast and I did not get it to work yet. I will find out why I got this error within a week, and if you have any suggestions, please let me know what you think.
-
-
+![ARIMA Prediction](https://github.com/sergeyivanov01/PHBS_MLF_2018/blob/master/ARIMA%20prediction.png)
